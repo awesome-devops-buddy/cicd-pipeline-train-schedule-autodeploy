@@ -1,5 +1,5 @@
 pipeline {
-    Agent tt-02-Jan24
+    agent 'tt-02-Jan24'
     environment {
         //be sure to replace "bhavukm" with your own Docker Hub username
         DOCKER_IMAGE_NAME = "connectamitgupta/train-schedule"
